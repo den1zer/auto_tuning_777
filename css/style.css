@@ -10,7 +10,54 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+body{
+  background: #161c22;
+  color: aliceblue;
 
+  margin: 0;
+}
+
+nav ul{
+  background: #1d232d;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  list-style: none;
+  border-bottom: #60a9ed solid 3px;
+  margin: 0;
+
+}
+nav ul li{
+  font-weight: bold;
+  font-size: 36px;
+  display: inline;
+  margin: 80px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #adbfe8;
+  font: normal 40px "Lucida Grande", Andale Mono, monospace;
+}
+div img {
+  margin: 100px;
+  border-radius: 50px;
+}
+.imagetext{
+  position: relative;
+  top: 50%;
+
+}
+.overimg{
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 30%;
+  font-size: 36px;
+  color: #796dca;
+  //background: #1d232d;
+border-bottom: #7e93c5 solid 1px;
+
+}
 html {
   color: #222;
   font-size: 1em;
