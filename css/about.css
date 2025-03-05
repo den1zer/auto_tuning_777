@@ -1,3 +1,6 @@
 body{
   background: #4c5c75;
 }
+div img{
+  border-radius: 1000px;
+}
