@@ -1,0 +1,10 @@
+.header_text{
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  color: #7e93c5;
+  font-size: 30px;
+  letter-spacing: 3px;
+  text-decoration-style: dashed;
+  border-bottom: #ffffff solid 1px;
+}
