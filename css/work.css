@@ -1,10 +1,42 @@
+body{
+  background: #161c22;
+}
+
 .header_text{
   display: flex;
   font-weight: bold;
   align-items: center;
   color: #7e93c5;
-  font-size: 30px;
-  letter-spacing: 3px;
-  text-decoration-style: dashed;
-  border-bottom: #ffffff solid 1px;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-decoration: none;
+
+
 }
+nav li a img {
+  margin-right: 550px;
+}
+.galerry{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+
+
+}
+.photo_locate{
+  position: relative;
+  width: 90%;
+  border-radius: 10px;
+  height: 90%;
+  margin-top: 30px;
+
+}
+
+.photo_locate:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+

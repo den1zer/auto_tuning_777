@@ -1,20 +1,36 @@
-body{
-  background: #161c22;
-}
-div img{
+
+.workers{
+  width: 200px;
+  height: 200px;
   border-radius: 1000px;
   margin-right: 30px;
+
+  border: #796dca 3px solid;
 }
+.icons{
+  height: 50px;
+  width: 50px;
+}
+
 div p a {
   text-decoration: none;
   margin-left: 100px;
 }
+.works{
+  color: rgb(193, 157, 3);
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
 .about_text{
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   color: aliceblue;
   font-size: 33px;
-  margin: 25px;
+
+  margin: 10px;
   letter-spacing: 3px;
   text-transform: none;
 }
@@ -23,26 +39,12 @@ div p a {
   font-weight: bold;
   align-items: center;
   color: #7e93c5;
-  font-size: 33px;
+  font-size: 30px;
   letter-spacing: 3px;
-  text-decoration-style: dashed;
+  text-decoration-style: solid;
   border-bottom: #ffffff solid 1px;
 }
-li a img{
-  margin-right: 100px;
-}
-footer{
-
-  color: #ca8484;
+.ourworks{
   text-align: center;
-  font-size: 25px;
-
-}
-footer a{
-  text-decoration: none;
-  text-align: center;
-  color: #a3b7d5;
-  font-size: 20px;
-  letter-spacing: 4px;
-  margin: 60px;
+  font-size: 50px;
 }

@@ -1,0 +1,60 @@
+
+li a img{
+  margin-right: 450px;
+}
+.header_text{
+  display: flex;
+  font-weight: bold;
+  text-decoration:none;
+  color: #7e93c5;
+  font-size: 30px;
+  letter-spacing: 3px;
+  border-bottom: #ffffff solid 1px;
+}
+nav ul{
+  background: #1d232d;
+  padding: 0px;
+  text-align: center;
+  list-style: none;
+  border-bottom: #60a9ed solid 3px;
+
+
+}
+nav ul li{
+  font-weight: bold;
+  font-size: 36px;
+  display: inline;
+  margin: 100px;
+
+}
+nav ul li a {
+  text-decoration: none;
+  color: #adbfe8;
+  font: normal 40px "Lucida Grande", Andale Mono, monospace;
+  margin-left: 50px;
+}
+.input_place{
+align-items: center;
+  margin: 25px;
+  width: 300px;
+  margin-left: 40px;
+  margin-top: 200px;
+  font-size: 30px;
+  color: whitesmoke;
+  background: #1d232d;
+}
+.button_place{
+  margin-left: 500px;
+  height: 50px;
+  width: 500px;
+  color: #1eba39;
+  background: #1d232d;
+  border: #1eba39 solid 3px;
+  border-radius: 100px;
+  box-shadow: 0 0 10px #1eba39;
+  transition: 100ms;
+}
+.button_place:active{
+  transform: scale(0.8);
+}
+
