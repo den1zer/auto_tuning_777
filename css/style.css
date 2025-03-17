@@ -10,13 +10,14 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-.navimg{
-  width:50px;
-  height: 50px;
+.nav_img{
+  width:70px;
+  height: 70px;
   margin-bottom: 5px;
   margin-top: 5px;
-}
 
+}
+/*
 nav ul{
   background: #1d232d;
   margin-top: 0;
@@ -37,7 +38,7 @@ nav ul li a {
   font: normal 35px "Lucida Grande", Andale Mono, monospace;
   margin-left: 50px;
   text-align: center;
-}
+}*/
 
 
 main{
@@ -90,43 +91,133 @@ main div img {
   border-bottom: #ffffff solid 1px;}
 }
 
-.overimg3{
-  position: absolute;
-  top: 75%;
-  left: 80%;
-  font-size: 36px;
-  color: #796dca;
-}
-footer{
 
-  color: #ca8484;
-  text-align: center;
-  font-size: 25px;
-  text-shadow: 0 0 20px #ff0000;
-}
-footer a{
+.nav-links {
+  position: fixed;
+  right: 0;
+  top:5px;
+  height: 50px;
+  width: 1519px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;transform: translateY(-200%);
 
+  transition: 1s;
+
+  list-style: none;
+  display: flex;
+
+}
+
+.nav-links.active {
+  transform: translateX(0);
+
+}
+.nav-links li a {
   text-decoration: none;
-  margin: 20px;
-  color: #a3b7d5;
+  color: #ffffff;
   font-size: 20px;
-  letter-spacing: 4px;
-  text-shadow: 0 0 30px #503370;
+  font-weight: bold;
+border: #796dca solid 1px;
+  border-radius: 5px;
+  background: #503370;
 
 }
 
+
+@media (max-width: 1024px) {
+  .nav_img{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  main div img {
+    height: 100%;
+    width: 100%;
+    margin:5px;
+  }
+  .overimg1{
+    width: 100%;
+    left: 3%;
+    border-bottom: none;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .overimg2{
+    top: 50%;
+    left: 0.0001%;
+    font-size:24px;
+    width: 100%;
+    text-align: center;
+
+  }
+  .nav-links {
+
+    height: 2%;
+    width: 100%;
+    flex-direction: row;
+    transform: translateY(-250%);
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .nav_img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  }
+  main div img {
+    height: 100%;
+    width: 100%;
+  margin:1px;
+  }
+  .overimg1{
+    width: 100%;
+    border-bottom: none;
+    font-size: 16px;
+    text-align: center;
+    left: 3%;
+  }
+
+  .overimg2{
+    top: 50%;
+    left: 0.0001%;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+
+  }
+  .nav-links {
+
+    height: 2%;
+    width: 100%;
+    flex-direction: row;
+    transform: translateY(-250%);
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 20px;
+  }
+
+
+
+}
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
   background: #b3d4fc;

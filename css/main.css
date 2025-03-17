@@ -3,8 +3,7 @@ body{
   color: aliceblue;
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
+margin:0 ;
   height: 100vh;
   width: 100%;
 }
@@ -29,4 +28,25 @@ footer a{
   letter-spacing: 4px;
   text-shadow: 0 0 30px #503370;
 
+}
+.icons{
+height: 30px;
+  width: 30px;
+}
+@media (max-width: 600px) {
+
+.icons{
+  height: 30px;
+  width: 30px;
+}
+  footer a{
+    font-size: 15px;
+    margin: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+    text-align: center;
+  }
+  footer{
+    font-size: 15px;
+  }
 }

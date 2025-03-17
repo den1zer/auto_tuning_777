@@ -7,10 +7,7 @@
 
   border: #796dca 3px solid;
 }
-.icons{
-  height: 50px;
-  width: 50px;
-}
+
 
 div p a {
   text-decoration: none;
@@ -47,4 +44,31 @@ div p a {
 .ourworks{
   text-align: center;
   font-size: 50px;
+  }
+.iconss{
+  height: 70px;
+  width: 70px;
+}
+@media screen and (max-width: 600px){
+  .about_text{
+    font-size: 25px;
+  }
+  .header_text{
+    font-size: 15px;
+  }
+.icons{
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.workers{
+  width: 100px;
+  height: 100px;
+}
+.ourworks{
+  font-size: 30px;
+}
+div p a {
+  margin-left: 0;
+}
 }
